@@ -3,6 +3,7 @@
         <div class="lewastrona_footer">
             <h5 class="tytul">Tytul jakis footera</h5>
             <p>Jakas tresc zeby pusto nie bylo no nie</p>
+            <p>siema dodaje se cos</p>
         </div>
         <div class="menu_footer">
             <h5 class="tytul">MENU</h5>
