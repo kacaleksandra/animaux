@@ -1,8 +1,6 @@
 <template>
     <div id="app-kontakt">
-        <nav>
-
-        </nav>
+        <p>Tu będzie coś do kontaktu wiesz ocb</p>
     </div>
 </template>
 

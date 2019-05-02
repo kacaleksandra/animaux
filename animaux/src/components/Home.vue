@@ -1,8 +1,6 @@
 <template>
     <div id="app-home">
-        <nav>
-
-        </nav>
+        <p>Stronka domowa wiesz jak jest</p>
     </div>
 </template>
 

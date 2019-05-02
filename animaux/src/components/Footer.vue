@@ -6,9 +6,9 @@
             <p>Jakas tresc zeby pusto nie bylo no nie</p>
         </div>
         <div class="footer-menu">
-            <h5 class="title">MENU</h5>
+            <h5 class="title">LINKI</h5>
             <ul>
-                <li></li>
+                <li v-for="link in links" :key="link"><router-link :to="link.route">{{ link.text }}</router-link></li>
             </ul>
         </div>
         <div class="footer-copyright">
@@ -24,7 +24,12 @@ export default {
     props: ['title'],
     data(){
         return{
-            copyright: 'Copyright 2019'
+            copyright: 'Copyright 2019',
+            links:[
+                { text: 'Home', route: '/'},
+                { text: 'About Us', route: '/about'},
+                { text: 'Contact', route: '/contact'},
+            ]
         }
     }
 }

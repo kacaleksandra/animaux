@@ -1,8 +1,6 @@
 <template>
     <div id="app-cattos">
-        <nav>
-
-        </nav>
+        <p>Tu będą kotki</p>
     </div>
 </template>
 

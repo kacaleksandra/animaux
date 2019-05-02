@@ -1,8 +1,6 @@
 <template>
     <div id="app-about-us">
-        <nav>
-
-        </nav>
+        <p>Tu będzie coś o nas</p>
     </div>
 </template>
 

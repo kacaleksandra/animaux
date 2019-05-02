@@ -1,8 +1,6 @@
 <template>
     <div id="app-doggos">
-        <nav>
-
-        </nav>
+        <p>Tu będą pjeski</p>
     </div>
 </template>
 

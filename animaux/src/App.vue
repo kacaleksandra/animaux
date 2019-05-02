@@ -2,6 +2,7 @@
   <div id="app">
     <app-header :title="title"></app-header>
     <app-menu></app-menu>
+    <router-view></router-view>
     <app-footer :title="title"></app-footer>
   </div>
 </template>
