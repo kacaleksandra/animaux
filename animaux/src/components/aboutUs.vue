@@ -1,7 +1,7 @@
 <template>
     <div id="app-about-us">
         <h1 class="display-4">Nasz Zespół: </h1>
-        <p class="display-2 grey--text">3 debili ze szkolki sie dobralo i robia jakies gowno dojrbane o pjeskach i kotach</p>
+        <p class="display-2 grey--text">Trzech ambitnych uczniów szkoły średniej postanowiło zrobić projekt o ich wspólnej pasji - zwierzętach.</p>
 
         <v-container class="my-3">
 
