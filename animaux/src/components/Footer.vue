@@ -1,23 +1,28 @@
 <template>
   <div id="app-footer">
     <div class="footer">
-      <div id="button"></div>
-      <div id="container">
-        <div id="cont">
-          <div class="footer_center">
-            <h3>tekst</h3>
+      <footer>
+        <div class="footer">
+          <div id="button">
+            <div id="piesek">
+              <img weight="80px" width="80px" src="/dogbutton.png" alt="piesek">
+            </div>
+          </div>
+          <div id="container">
+            <div class="footer_center">
+              <h3>Animaux &copy; 2019</h3>
+            </div>
+            <div class="content">
+              <div class="menu">
+                <p>menu</p>
+              </div>
+              <div class="logo">
+                <p>logo</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="footer-menu">
-            <h5 class="title">LINKI</h5>
-            <ul>
-                <li v-for="(link, idx) in links" :key="idx"><router-link :to="link.route">{{ link.text }}</router-link></li>
-            </ul>
-        </div>
-        <div class="footer-copyright">
-            <p>{{ copyright }} {{ title }}</p>
-        </div>
-        </footer>
+      </footer>
     </div>
   </div>
 </template>
