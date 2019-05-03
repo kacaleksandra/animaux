@@ -8,7 +8,7 @@
         <div class="footer-menu">
             <h5 class="title">LINKI</h5>
             <ul>
-                <li v-for="link in links" :key="link"><router-link :to="link.route">{{ link.text }}</router-link></li>
+                <li v-for="(link, idx) in links" :key="idx"><router-link :to="link.route">{{ link.text }}</router-link></li>
             </ul>
         </div>
         <div class="footer-copyright">

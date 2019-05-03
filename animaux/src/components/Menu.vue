@@ -1,7 +1,7 @@
 <template>
     <div id="app-menu">
         <ul>
-            <li v-for="link in links" :key="link"><router-link :to="link.route">{{ link.text }}</router-link></li>
+            <li v-for="(link, idx) in links" :key="idx"><router-link :to="link.route">{{ link.text }}</router-link></li>
         </ul>
     </div>
 </template>
