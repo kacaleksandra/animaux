@@ -1,27 +1,27 @@
 <template>
   <div id="app">
-    <app-header :title="title"></app-header>
-    <app-menu></app-menu>
-    <router-view></router-view>
-    <app-footer :title="title"></app-footer>
+    <app-header :title="title"/>
+    <app-menu/>
+    <router-view/>
+    <app-footer/>
   </div>
-</template>
+</template> 
 
 <script>
-import Header from './components/Header.vue'
-import Menu from './components/Menu.vue'
-import Footer from './components/Footer.vue'
+import Header from "./components/Header.vue";
+import Menu from "./components/Menu.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  components:{
-    'app-header': Header,
-    'app-menu': Menu,
-    'app-footer': Footer
+  components: {
+    "app-header": Header,
+    "app-menu": Menu,
+    "app-footer": Footer
   },
-  data () {
+  data() {
     return {
-      title: 'Animaux'
-    }
+      title: "Animaux"
+    };
   }
-}
+};
 </script>
