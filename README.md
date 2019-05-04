@@ -6,6 +6,10 @@ We're just a group of three students from Poland whose goal is to learn vue.js f
 
 Our first challenge was to learn basics of GitHub. Of course we've succeeded and we're very proud of ourselves. We've also agreed on the catalog structure of the project. What's more we added a simple footer file as the beginning of our website.
 
+## May 04, 2019
+
+Henlo, so basically since our last pupdate we managed to make the backbone of our site! We also did some styling to our footer and about us page!
+
 ## Authors
 - Aleksandra Kacprzak
 - Radek Olesiński
