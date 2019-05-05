@@ -1,0 +1,92 @@
+label {
+    position: absolute;
+    z-index: 1;
+}
+
+input {
+    display: none;
+}
+
+input:checked~label {
+    right: 0;
+}
+
+.burger {
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+
+.burger g {
+    stroke: #63666a;
+    transition: stroke 0.25s ease-in-out;
+}
+
+input:checked~label .burger {
+    opacity: 0;
+}
+
+.close {
+    position: absolute;
+    right: 92.5vw;
+    bottom: 1.6vw;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.close g {
+    stroke: #f0f2ef;
+    transition: stroke 0.25s ease-in-out;
+}
+
+.close line {
+    transform-origin: 0%;
+}
+
+.close g {
+    transform: rotateZ(45deg);
+    transform-origin: 50%;
+}
+
+input:checked~label .close {
+    opacity: 1;
+}
+
+.mainmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: #63666a;
+    transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: #f0f2ef;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Helvetica;
+    top: 0;
+    border-right: solid 5px #afd5aa;
+    text-align: center;
+}
+
+input:checked~.mainmenu {
+    opacity: 0.8;
+}
+
+.mainenu div {
+    margin-top: 50px;
+    transition: margin 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+input:checked~.mainmenu div {
+    margin-top: 0px;
+}
+
+#image {
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
