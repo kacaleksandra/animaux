@@ -34,7 +34,7 @@
    left: 0;
    position: fixed;
    width: 100%;
-   height: 7.2em;
+   height: 11.4em;
    overflow: hidden;
    margin: 0 auto;
    -webkit-transition: all 1s ease;
@@ -84,13 +84,14 @@
  .menu {
    width: 60%;
    display: inline-block;
-   margin-left: 8em;
+
+
  }
 
  .logo {
    width: 40%;
    display: inline-block;
-   margin-left: -8em;
+
  }
 
  #img {
@@ -101,14 +102,15 @@
 
  #menu1 {
    display: inline-block;
-   width: 40%;
+   width: 20%;
+   margin-left: 5%;
+
 
  }
 
  #menu2 {
    display: inline-block;
-   width: 40%;
-   margin-left: -13em;
+   width: 20%;
  }
 
  #clearli {
