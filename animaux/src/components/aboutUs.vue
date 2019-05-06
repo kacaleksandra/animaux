@@ -39,6 +39,7 @@ export default {
 </script>
 
 <style scoped>
+
 .display-4 {
 text-align: center;
 }
