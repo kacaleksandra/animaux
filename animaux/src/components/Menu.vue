@@ -53,10 +53,6 @@
 </template>
 
 <style scoped>
-#wrapper {
-  height: 100%;
-}
-
 label {
     position: absolute;
     z-index: 1;
@@ -86,15 +82,13 @@ input:checked~label .burger {
 }
 
 .close {
-    position: absolute;
-    right: 92.5vw;
-    bottom: 1.6vw;
+    position: static;
     cursor: pointer;
     opacity: 0;
 }
 
 .close g {
-    stroke: #f0f2ef;
+    stroke: #63666a;
     transition: stroke 0.25s ease-in-out;
 }
 
@@ -112,13 +106,11 @@ input:checked~label .close {
 }
 
 .mainmenu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(30px, auto);
+    align-items: center;
+    justify-content: center;
     position: absolute;
     opacity: 0;
-    width: 15%;
-    height: 100%;
+    height: 100vh;
     background-color: #63666a;
     transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     color: #f0f2ef;
@@ -135,36 +127,93 @@ input:checked~.mainmenu {
     opacity: 0.8;
 }
 
+.mainenu div {
+    margin-top: 50px;
+    transition: margin 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 input:checked~.mainmenu div {
     margin-top: 0px;
 }
 
-#image {
-    grid-column: span 2;
-    display: grid;
+
+@media (min-width: 1050px) and (min-height: 613px) {
+
+    .mainmenu {
+        width: 13%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #image {
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
 }
 
-#image:first-of-type{
-    margin-top: 45px;
+@media (min-width: 1000px) {
+
+    .mainmenu {
+        width: 10%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #image {
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+
 }
 
-.router{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
-    text-align: center;
+@media (max-width: 1000px) and (min-width: 600px) {
+
+    .mainmenu {
+        width: 15%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #image {
+        margin-bottom: 8%;
+        margin-top: 8%;
+    }
 }
 
-.router img{
-    justify-self: end;
-    align-self: center;
-    grid-column: 1 / 2;
+@media (max-width: 600px) {
+
+    .mainmenu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #image {
+        margin-bottom: 5%;
+        margin-top: 1%;
+    }
 }
 
-.router p{
-    padding: 5px;
-    justify-self: start;
-    align-self: center;
-    grid-column: 2 / 4;
+@media (max-width: 900px) and (max-height: 420px) {
+
+    .mainmenu {
+        width: 100%;
+        display: flex;
+        flex-direction: initial;
+    }
+
+    #image {
+        margin-left: 5%;
+
+    }
+
+    #name {
+        margin-top: 15%;
+
+    }
+
+    #namep {
+        margin-top: 28%;
+    }
 }
 </style>
