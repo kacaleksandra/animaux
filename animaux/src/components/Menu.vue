@@ -21,31 +21,31 @@
       <div id="image">
         <router-link class="router" to="/">
           <img width="60" height="60" src="/homemenu.png" alt="logo">
-          <div>Home</div>
+          <div id="name">Home</div>
         </router-link>
       </div>
       <div id="image">
         <router-link class="router" to="/cattos">
           <img width="65" height="65" src="/catmenu.png" alt="logo">
-          <div>Cat</div>
+          <div id="name">Cat</div>
         </router-link>
       </div>
       <div id="image">
         <router-link class="router" to="/doggos">
           <img width="65" height="65" src="/dogmenu.png" alt="logo">
-          <div>Dog</div>
+          <div id="name">Dog</div>
         </router-link>
       </div>
       <div id="image">
         <router-link class="router" to="/about">
           <img width="65" height="65" src="/aboutusmenu.png" alt="logo">
-          <div>About us</div>
+          <div id="name">About us</div>
         </router-link>
       </div>
       <div id="image">
         <router-link class="router" to="/contact">
           <img width="55" height="55" src="/contactmenu.png" alt="logo">
-          <div>Contact</div>
+          <div id="namep">Contact</div>
         </router-link>
       </div>
     </div>
