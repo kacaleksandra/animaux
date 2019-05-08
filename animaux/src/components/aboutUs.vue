@@ -1,8 +1,8 @@
 <template>
     <div id="app-about-us">
-        <h1 class="display-4">Nasz Zespół: </h1>
-        <p class="display-2 grey--text">Trzech ambitnych uczniów szkoły średniej postanowiło zrobić projekt o ich wspólnej pasji - zwierzętach.</p>
-
+        <h1 class="display-3">Nasz Zespół: </h1>
+        <p class="display-1 grey--text">Trzech ambitnych uczniów szkoły średniej postanowiło zrobić projekt o ich wspólnej pasji - zwierzętach.</p>
+        <div id="onas">
         <v-container class="my-3">
 
             <v-layout row wrap>
@@ -21,6 +21,7 @@
                 </v-flex>
             </v-layout>    
         </v-container>
+        </div>
     </div>
 </template>
 
@@ -40,11 +41,14 @@ export default {
 
 <style scoped>
 
-.display-4 {
+.display-3 {
 text-align: center;
 }
 p {
     text-align: center;
     padding: 1em;
+}
+#onas {
+    transform: scale(0.8);
 }
 </style>

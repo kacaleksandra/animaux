@@ -3,10 +3,10 @@
         <div id="piesek">
             <img width="80px" src="/dogbutton.png" alt="pjesek-button-footer">
         </div>
-        <div id="footer-copy">
-            <h3>Animaux &copy; 2019</h3>
-        </div>
         <div id="content">    
+            <div id="footer-copy">
+                <h4>Animaux &copy; 2019</h4>
+            </div>
             <div id="menu1">
                 <ul>
                     <li>
@@ -43,27 +43,27 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     background: #63666A;
-    border-top: #afd5aa solid 5px;
+    border-top: 5px solid #afd5aa;
     color: #F0F2EF;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 3em;
-    -webkit-transition: all 1s ease;
+    height: 8em;
+    /* -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: all 1s ease; */
 }
 
-footer:hover {
+/* footer:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-    height: 10em;
-}
+    height: 8.7em;
+} */
 
 #piesek {
     width: 35px;
@@ -71,13 +71,14 @@ footer:hover {
     top: -70px;
     margin: 0 auto;
     position: relative;
-    -webkit-transition: all 1s ease;
+    margin-bottom: -15px;
+  /*   -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    transition: all 1s ease; */
 }
- 
+/*  
 #piesek:hover {
     width: 35px;
     -webkit-transition: all 1s ease;
@@ -86,24 +87,19 @@ footer:hover {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
     position: relative;
-}
+} */
 
-#footer-copy {
-    margin-top: -35px;
-    margin-bottom: 18px;
-    text-align: center;
-}
-
-h3 {
+h4 {
     font-family: 'Helvetica';
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 100;
 }
 
 #content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
+    margin-bottom: 0;
 }
 
 #menu1 {
@@ -119,6 +115,12 @@ h3 {
 #logo {
     grid-column: 3 / 5;
     justify-self: center;
+}
+
+#footer-copy {
+    grid-row: 2 / 3;
+    grid-column: span 4;
+    text-align: center;
 }
 
 .router {
