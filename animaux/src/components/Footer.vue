@@ -49,21 +49,8 @@ footer {
     bottom: 0;
     width: 100%;
     height: 8em;
-    /* -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease; */
+    margin-top: 40px;
 }
-
-/* footer:hover {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    height: 8.7em;
-} */
 
 #piesek {
     width: 35px;
@@ -72,22 +59,8 @@ footer {
     margin: 0 auto;
     position: relative;
     margin-bottom: -15px;
-  /*   -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease; */
+    left: -2em;
 }
-/*  
-#piesek:hover {
-    width: 35px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    position: relative;
-} */
 
 h4 {
     font-family: 'Helvetica';
