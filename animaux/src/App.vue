@@ -1,27 +1,32 @@
 <template>
   <div id="app">
-    <app-header :title="title"/>
-    <app-menu/>
-    <router-view/>
-    <app-footer/>
+    <app-header class="header" />
+    <router-view class="center" />
+    <app-footer class="footer" />
   </div>
-</template> 
+</template>
 
 <style scoped>
+.center {
+  z-index: 0;
+}
+
+.header {
+  z-index: 1;
+}
 
 </style>
 
 
 <script>
 import Header from "./components/Header.vue";
-import Menu from "./components/Menu.vue";
 import Footer from "./components/Footer.vue";
+
 
 export default {
   components: {
     "app-header": Header,
-    "app-menu": Menu,
-    "app-footer": Footer
+    "app-footer": Footer,
   },
   data() {
     return {
