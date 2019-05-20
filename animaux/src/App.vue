@@ -8,7 +8,7 @@
 
 <style scoped>
 .center {
-  z-index: 0;
+  z-index: -1;
 }
 
 .header {

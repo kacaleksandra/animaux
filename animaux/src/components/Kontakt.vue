@@ -14,11 +14,11 @@
                         required></textarea>
                     <div id="checkboxes">
                         <label>Cattos</label>
-                        <input type="checkbox" value="cattos" v-model="contact.categories">&nbsp;&nbsp;
+                        <input type="checkbox" value="cattos" v-model="contact.categories">
                         <label>Doggos</label>
-                        <input type="checkbox" value="doggos" v-model="contact.categories">&nbsp;&nbsp;
+                        <input type="checkbox" value="doggos" v-model="contact.categories">
                         <label>Propositions</label>
-                        <input type="checkbox" value="propositions" v-model="contact.categories">&nbsp;&nbsp;
+                        <input type="checkbox" value="propositions" v-model="contact.categories">
                         <label>Basic help</label>
                         <input type="checkbox" value="basic help" v-model="contact.categories">
                     </div>
@@ -210,6 +210,7 @@ button {
 
 #checkboxes input {
     padding: 0.5em;
+    margin-right:6px;
 }
 
 #preview {
