@@ -10,6 +10,10 @@ Our first challenge was to learn basics of GitHub. Of course we've succeeded and
 
 Henlo, so basically since our last pupdate we managed to make the backbone of our site! We also did some styling to our footer and about us page!
 
+## May 20, 2019
+
+After long struggles we finally managed to make our whole site working! Unfortunately without any pupdates....
+
 ## Authors
 - Aleksandra Kacprzak
 - Radek Olesiński
