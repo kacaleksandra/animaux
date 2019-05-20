@@ -5,7 +5,7 @@
     <h3>How do I contact you</h3>
     <p>
       Just fill the form on our
-      <router-link class="router" to="/contact" @click.native="scrollToTop()">contact</router-link>page!
+      <router-link class="router" to="/contact" @click.native="scrollToTop()">contact </router-link>page!
     </p>
 
     <h3>How do I adopt?</h3>

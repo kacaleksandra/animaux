@@ -29,7 +29,7 @@
     </carousel>
 
     <div id="content">
-      <article>Welcome to "Animaux"! We are a very friendly shelter for any doggo and catto you can imagine!</article>
+      <article>Welcome to Animaux! We are a very friendly shelter for any doggo and catto you can imagine!</article>
       <h1>New goodboies and goodgurls</h1>
       <p id="help">Click on the picture to go to cats or dogs page!</p>
       <div id="newbois">
@@ -49,16 +49,8 @@
 
       <br>
       <section>
-        To see animals, that are currently at our shelter, head to the "
-        <router-link class="router" to="/cattos" @click.native="scrollToTop()">Cattos</router-link>" or "
-        <router-link class="router" to="/doggos" @click.native="scrollToTop()">Doggos</router-link>" page. If you want to
-        know anything more about us, go to the "
-        <router-link class="router" to="/about" @click.native="scrollToTop()">About Us</router-link>" page. You have any questions/suggestions?
-        Use our "<router-link class="router" to="/contact" @click.native="scrollToTop()">Contact Us</router-link>"
-        page, but before doing that, check if your question isn't answered already in the "
-        <router-link class="router" to="/faq" @click.native="scrollToTop()">FAQ</router-link>"
-        section. Also, you have a site map of our website, wich you can access by clicking on the link in the footer of
-        the site. Enjoy your stay here my friend!
+        To see animals, that are currently at our shelter, head to the "<router-link class="router" to="/cattos" @click.native="scrollToTop()">Cattos</router-link>" or "<router-link class="router" to="/doggos" @click.native="scrollToTop()">Doggos</router-link>" page. <br>
+        If you want to know anything more about us, go to "<router-link class="router" to="/about" @click.native="scrollToTop()">About Us</router-link>" page. You have any questions/suggestions? Use our "<router-link class="router" to="/contact" @click.native="scrollToTop()">Contact Us</router-link>" page, but before doing that, check if your question isn't answered already in the "<router-link class="router" to="/faq" @click.native="scrollToTop()">FAQ</router-link>" section. Enjoy your stay here my friend!
       </section>
     </div>
   </div>
