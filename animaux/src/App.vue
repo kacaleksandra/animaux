@@ -4,7 +4,9 @@
     <transition name="loading-animation" enter-active-class="animated fadeIn faster">
       <div v-if="loading">
         <app-header class="header"/>
-        <router-view class="center"/>
+        <transition name="router-animation" enter-active-class="animated fadeIn normal">
+          <router-view class="center"/>
+        </transition>
         <app-footer class="footer"/>
       </div>
     </transition>
