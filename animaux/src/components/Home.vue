@@ -2,14 +2,13 @@
   <div id="app-home">
     <carousel
       id="cyrk"
-      perPage="1"
-      autoplay="true"
+      :perPage="1"
+      :autoplay="true"
       paginationColor="#d0aad5"
       paginationActiveColor="#afd5aa"
-      autoplayTimeout="3000"
-      loop="true"
-      speed="1000"
-      autoplayHoverPause="false"
+      :autoplayTimeout="3000"
+      :loop="true"
+      :speed="1000"
     >
       <slide class="slajd">
         <img class="slide" src="homeslides/elo10.jpg" alt="Animaux">
