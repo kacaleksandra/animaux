@@ -117,7 +117,8 @@ img {
 
 .slide {
   width: 100%;
-  height: 650px;
+  height: auto;
+  max-height: 650px;
 }
 
 .content {
