@@ -138,9 +138,9 @@ img {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #cyrk {
     display: none;
   }
-}
+} */
 </style>
