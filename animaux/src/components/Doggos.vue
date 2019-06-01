@@ -3,51 +3,63 @@
         <h1>Our lovely dogs!</h1>
         <p id="help">Click on the picture to reveal name and information about the animal!</p>
         <div id="gallery">
-            <div id="img1" style="background: url('/dogs/dogt1.jpg');" @click="showText1()">
+            <div id="img1" @click="showText1()">
+                <img src="/dogs/dogt1.jpg" alt="simba">
                 <p :class="{text1}">Lion king gurl <br><br> This is Simba <br> Simba is very smol and cute (uwu), she
                     hates baths and commands from hoomans!</p>
             </div>
-            <div id="img2" style="background: url('/dogs/dogt2.jpg');" @click="showText2()">
+            <div id="img2" @click="showText2()">
+                <img src="/dogs/dogt2.jpg" alt="ana">
                 <p :class="{text2}">Happp gurl <br><br> This is Ana <br> Ana is always smiling and making everyones mood
                     better and better, theres no situation she couldnt handle!</p>
             </div>
-            <div id="img3" style="background: url('/dogs/dogt3.jpg');" @click="showText3()">
+            <div id="img3" @click="showText3()">
+                <img src="/dogs/dogt3.jpg" alt="pyśka">
                 <p :class="{text3}">Proud gurl <br><br> This is Pyśka <br> Pyśka is very proud of herself cause she
                     learnt many tricks so far as a pupper and tries to show them to everybody!</p>
             </div>
-            <div id="img4" style="background: url('/dogs/dogt4.jpg');" @click="showText4()">
+            <div id="img4" @click="showText4()">
+                <img src="/dogs/dogt4.jpg" alt="nelson">
                 <p :class="{text4}">Clout boi <br><br> This is Nelson <br> Nelson is very fluff and gentle, he loves
                     long hugs and naps at any time!</p>
             </div>
-            <div id="img5" style="background: url('/dogs/dogt5.jpg');" @click="showText5()">
+            <div id="img5" @click="showText5()">
+                <img src="/dogs/dogt5.jpg" alt="alex">
                 <p :class="{text5}">Smol boi in a big world <br><br> This is Alex <br> Alex feels very smol and anxious
                     sometimes but he tries his best to love his hoomans as much as possible!</p>
             </div>
-            <div id="img6" style="background: url('/dogs/dogt6.jpg');" @click="showText6()">
+            <div id="img6" @click="showText6()">
+                <img src="/dogs/dogt6.jpg" alt="scooby">
                 <p :class="{text6}">Scooooby dooodle <br><br> This is Scooby <br> Scooby has very pleasant fur and he
                     loves when his hooman do scrich scratch, he also enjoys long baths!</p>
             </div>
-            <div id="img7" style="background: url('/dogs/dogt7.jpg');" @click="showText7()">
+            <div id="img7" @click="showText7()">
+                <img src="/dogs/dogt7.jpg" alt="zara">
                 <p :class="{text7}">Teefs gurl <br><br> This is Zara <br> Zara shows her teefs to everyone to admire
                     her, she can do many tricks and is very active¡!</p>
             </div>
-            <div id="img8" style="background: url('/dogs/dogt8.jpg');" @click="showText8()">
+            <div id="img8" @click="showText8()">
+                <img src="/dogs/dogt8.jpg" alt="light">
                 <p :class="{text8}">Fast boi (zoomies) <br><br> This is Light <br> Light is very active (and fast), he
                     loves long walks around the park stopping for some snacc from his loving hooman:3</p>
             </div>
-            <div id="img9" style="background: url('/dogs/dogt9.jpg');" @click="showText9()">
+            <div id="img9" @click="showText9()">
+                <img src="/dogs/dogt9.jpg" alt="nala">
                 <p :class="{text9}">Mmmm licky gurl <br><br> This is Nala <br> Nala consantly licks her and her hoomans
                     nose, she also loves picnics and appreciates every snacc she get! </p>
             </div>
-            <div id="img10" style="background: url('/dogs/dogt10.jpg');" @click="showText10()">
+            <div id="img10" @click="showText10()">
+                <img src="/dogs/dogt10.jpg" alt="sneak">
                 <p :class="{text10}">Sneaky boi <br><br> This is Sneak <br> Sneak is always willing to play and tries to
                     hide everywhere (what is funny sometimes), hes more like lazy boi...</p>
             </div>
-            <div id="img11" style="background: url('/dogs/dogt11.jpg');" @click="showText11()">
-                <p :class="{text11}">Smol drunk boi <br><br> This is Stitch <br> Stich likes to take long naps at every
+            <div id="img11" @click="showText11()">
+                <img src="/dogs/dogt11.jpg" alt="stich">
+                <p :class="{text11}">Smol drunk boi <br><br> This is Stich <br> Stich likes to take long naps at every
                     time of the day in every position and place possible, he also drinks too much milk...</p>
             </div>
-            <div id="img12" style="background: url('/dogs/dogt12.jpg');" @click="showText12()">
+            <div id="img12" @click="showText12()">
+                <img src="/dogs/dogt12.jpg" alt="bob">
                 <p :class="{text12}">Two color boi <br><br> This is Bob <br> Probably there wasnt enough ink to print
                     him fully, despite that he is still a good boi and willing to play and love &#10084;</p>
             </div>
@@ -146,7 +158,8 @@ h1 {
 #img12 {
     flex-basis: 430px;
     margin-bottom: 2.5em;
-    height: 400px;
+    height: auto;
+    max-height: 400px;
     position: relative;
     z-index: 0;
 }
@@ -176,11 +189,12 @@ p {
     color: #fff;
     height: 100%;
     font-size: 1.5em;
+    position: absolute;
+    top: 0;
 }
 
 #help {
     display: block;
-    ;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
